@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6572ffe9-3963-4656-9b39-bfaa2345a3f0" name="Changes" comment="" />
+    <list default="true" id="6572ffe9-3963-4656-9b39-bfaa2345a3f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biaoguoworks/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biaoguoworks/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biaoguoworks/MockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biaoguoworks/MockService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -48,6 +52,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -90,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752684310702</updated>
-      <workItem from="1752684311735" duration="2853000" />
+      <workItem from="1752684311735" duration="3210000" />
     </task>
     <servers />
   </component>

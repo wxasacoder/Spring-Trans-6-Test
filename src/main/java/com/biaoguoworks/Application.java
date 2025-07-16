@@ -15,7 +15,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @MapperScan("com.biaoguoworks")
 @EnableAspectJAutoProxy(exposeProxy = true, proxyTargetClass = true)
 public class Application {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
         MockService bean = run.getBean(MockService.class);
         bean.insertSomeUsers();

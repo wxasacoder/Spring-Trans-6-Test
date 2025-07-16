@@ -21,11 +21,11 @@ public class MockService {
     private UserMapper userMapper;
 
     @Transactional(rollbackFor = Exception.class)
-    public void insertSomeUsers(){
+    public void insertSomeUsers() throws InterruptedException {
         userMapper.insertUser();
-//        Thread.startVirtualThread(()->{
-//
-//        })
+        Thread thread = Thread.startVirtualThread(() -> userMapper.insertUser());
+        thread.join();
+        System.out.println(1 / 0);
     }
 
 
