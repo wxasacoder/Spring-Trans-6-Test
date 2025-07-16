@@ -22,8 +22,8 @@ public class MockService {
 
     @Transactional(rollbackFor = Exception.class)
     public void insertSomeUsers() throws InterruptedException {
-        userMapper.insertUser();
-        Thread thread = Thread.startVirtualThread(() -> userMapper.insertUser());
+        userMapper.insertUser("我是主");
+        Thread thread = Thread.startVirtualThread(() -> userMapper.insertUser("我是虚拟"));
         thread.join();
         System.out.println(1 / 0);
     }
