@@ -1,7 +1,10 @@
 server:
   port: 8976
+  shutdown: graceful  # 启用优雅关闭
 
 spring:
+  lifecycle:
+    timeout-per-shutdown-phase: 30s  # 最多等待 30 秒
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:33107/test?characterEncoding=utf-8&serverTimezone=GMT%2B8
@@ -10,4 +13,4 @@ spring:
   main:
     allow-circular-references: true
 
-debug: true
+debug: false
